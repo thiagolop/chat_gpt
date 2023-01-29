@@ -24,6 +24,7 @@ class ChatgptRepositoryImp implements ChatGptRepository {
           options: Options(headers: {'Authorization': 'Bearer ${ApiKey.getopenAIAPIKEY}'}));
       return response.data['choices'][0]['text'];
     } catch (e) {
+      print(e);
       return 'Erro ao enviar mensagem';
     }
   }

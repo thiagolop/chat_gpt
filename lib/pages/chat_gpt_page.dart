@@ -52,6 +52,13 @@ class _ChatGptPageState extends State<ChatGptPage> {
                               mainAxisAlignment: message['me'] ? MainAxisAlignment.end : MainAxisAlignment.start,
                               children: [
                                 Container(
+                                  margin: const EdgeInsets.only(left: 10, top: 5, right: 10),
+                                  child: Text(
+                                    '${message['data'].day}/${message['data'].month}/${message['data'].year}',
+                                    style: const TextStyle(color: Colors.black),
+                                  ),
+                                ),
+                                Container(
                                   padding: const EdgeInsets.all(10),
                                   decoration: BoxDecoration(
                                     color: message['me'] ? AppTheme.messageMe : AppTheme.messageBOT,
