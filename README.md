@@ -1,16 +1,7 @@
 # chat_gpt
 
-A new Flutter project.
+Reverse Engineered ChatGPT API by OpenAI. Extensible for chatbots etc.
 
-## Getting Started
+https://user-images.githubusercontent.com/109871891/215350452-d50a149e-b804-44e5-bcdd-a481103ff5a2.mp4
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This is not an official OpenAI product. This is a personal project and is not affiliated with OpenAI in any way.
