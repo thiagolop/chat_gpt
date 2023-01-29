@@ -20,11 +20,9 @@ class ChatGptController with ChangeNotifier {
   }
 
   void scrollToBottom() {
-    scrollController.animateTo(
-      scrollController.position.maxScrollExtent,
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeOut,
-    );
+   Future.delayed(const Duration(milliseconds: 300), () {
+      scrollController.jumpTo(scrollController.position.maxScrollExtent);
+    });
   }
 
   void clear() {
