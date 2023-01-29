@@ -1,4 +1,4 @@
-import 'package:chat_gpt/screens/chat_gpt_screen.dart';
+import 'package:chat_gpt/pages/chat_gpt_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class ChatGPT extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ChatGptScreen(),
+      home: const ChatGptPage(),
     );
   }
 }
